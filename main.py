@@ -35,7 +35,7 @@ def game():
     crateProbability = {
         'reward': 60,
         'nothing': 40,
-    }
+                        }
     global cratesCollected, goldAcquired, totalDiggingTime
     try:
         gameLenght = int(input("How many steps you want to move?\n"))
